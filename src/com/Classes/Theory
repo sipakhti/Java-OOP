@@ -1,0 +1,20 @@
+
+CLASSES
+    these are blueprints which can be used to instantiate new instances of objects. Unlike objects, Classes are not stored on the heap
+
+OBJECTS
+    these are the instances created in the memory using a Class as a template.
+
+ENCAPSULATION
+    It is the first concept of OOP. It states that the data as well as the methods that act on that data must be bundled together in a single unit(CLASS)
+
+ABSTRACTION
+    It is the second concept of OOP. It is built on the premise that unnecessary information looks ugly.
+    Fields should be private and only accessible via getters and setter only if absolutely necessary otherwise even those methods should be hidden.
+    Only those methods which are used as an interface should be made public so as to not overwhelm the end user but also to decrease coupling
+    Under the hood methods must always be hidden away from plain sight.
+
+COUPLING
+    it means inter dependency of Classes. It cannot be completely avoided as at least one point of coupling will always be present but nonetheless, it should be minimized.
+    Over dependency causes a chain reaction if a single class is modified, necessitating updating of coupled classes and if not then at least re-compiling of those classes is must
+    Abstraction is a very good practice to follow to minimize un necessary coupling.
