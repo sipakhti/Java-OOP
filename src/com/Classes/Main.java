@@ -19,7 +19,4 @@ public class Main {
     }
 
 
-    public static void showText(TextBox textBox){
-        System.out.println(textBox.text);
-    }
 }
