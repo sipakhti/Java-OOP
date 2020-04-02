@@ -17,7 +17,8 @@ public class Main {
             System.out.println(NumberFormat.getCurrencyInstance().format(amount));
 
         // TEST LINE FOR REBASING. AGAIN and again
-        // rebase commmit 1
+        // rebase commit 1
+        // rebase commit 2
 
     }
 
